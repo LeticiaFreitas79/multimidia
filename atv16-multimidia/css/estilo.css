@@ -1,0 +1,81 @@
+body {
+    background-image: url(../img/fundo9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0%;
+}
+
+div {
+    width: 70%;
+    height: auto;
+    display: block;
+    align-items: center;
+    margin: auto;
+    background-color: #ffd8e3;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    div {
+        width: 100%;
+    } 
+}
+
+video {
+    border-radius: 1%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 1000px) {
+    video {
+        width: 100%;
+    } 
+}
+
+audio {
+    border-radius: 1%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    audio {
+        width: 100%;
+    } 
+}
+
+
+iframe {
+    border-radius: 1%;
+    display: block;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    iframe {
+        width: 100%;
+    } 
+}
+
+p {
+    text-indent: 100px;
+    text-decoration: wavy;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    p {
+        width: 100%;
+    } 
+}
